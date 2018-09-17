@@ -1,3 +1,5 @@
+from nose.tools import assert_equal
+
 class Deque:
     def __init__(self):
         pass
@@ -19,3 +21,26 @@ class Deque:
 
     def size(self):
         pass
+
+
+def palchecker(aString):
+    pass
+
+class TestQueue(object):
+
+    def testPalCheckerMain(self):
+        
+        # print('Test: lsdkjfskf')
+        # assert_equal(palchecker('lsdkjfskf'), False)
+
+        # print('Test: radar')
+        # assert_equal(palchecker('radar'), True)
+        # print('Success: testPalCheckerMain\n')
+        pass
+
+def main():
+    test = TestQueue()
+    test.testPalCheckerMain()
+
+if __name__ == '__main__':
+    main()
